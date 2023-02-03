@@ -19,7 +19,9 @@ export default class GalacticAge {
   }
 
   mars() {
-    
+    this.pastAge = Math.round(this.pastAge / 1.88);
+    this.currentAge = Math.round(this.currentAge / 1.88);
+    this.futureAge = Math.round(this.futureAge / 1.88);
   }
 
 }

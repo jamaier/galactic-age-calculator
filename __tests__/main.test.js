@@ -29,6 +29,7 @@ describe('GalacticAge', () => {
     expect(galacticAge.futureAge).toEqual(95);
   });
   
+  
   test('should convert past, current and future age to Martian age.', () => {
     galacticAge.mars();
     expect(galacticAge.pastAge).toEqual(5);
