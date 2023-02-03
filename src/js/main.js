@@ -18,5 +18,9 @@ export default class GalacticAge {
     this.futureAge = Math.round(this.futureAge / .62);
   }
 
+  mars() {
+    
+  }
+
 }
 
