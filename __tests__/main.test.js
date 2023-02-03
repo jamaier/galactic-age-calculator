@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-
+//test for proper git add
 import GalacticAge from "./../src/js/main";
 
 describe("GalacticAge", () => {
@@ -43,7 +43,10 @@ describe("GalacticAge", () => {
   });
 
   test("should show the difference between ages since current age", () => {
-    let futureAge = galacticAge.yearsUntil();
-    expect(futureAge).toEqual(117); //using mercury for the first test
+    galacticAge.yearsUntil();
+    expect(galacticAge.mercurianAge).toEqual(117);
+    expect(galacticAge.venusianAge).toEqual(47);
+    expect(galacticAge.martianAge).toEqual(15);
+    expect(galacticAge.jupiterianAge).toEqual(2);
   });
 });
