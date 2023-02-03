@@ -13,9 +13,10 @@ export default class GalacticAge {
   }
 
   venus() {
-    // this.pastAge = Math.round(this.pastAge / .62);
-    // this.currentAge = Math.round(this.currentAge / .62);
-    // this.futureAge = Math.round(this.futureAge / .62);
+    this.pastAge = Math.round(this.pastAge / .62);
+    this.currentAge = Math.round(this.currentAge / .62);
+    this.futureAge = Math.round(this.futureAge / .62);
   }
+
 }
 

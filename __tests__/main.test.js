@@ -29,5 +29,6 @@ describe('GalacticAge', () => {
     expect(galacticAge.futureAge).toEqual(95);
   });
 
+
 });
 
