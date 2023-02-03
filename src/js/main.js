@@ -24,6 +24,8 @@ export default class GalacticAge {
   }
 
   jupiter() {
-
+    this.pastAge = Math.round(this.pastAge / 11.86);
+    this.currentAge = Math.round(this.currentAge / 11.86);
+    this.futureAge = Math.round(this.futureAge / 11.86);
   }
 }
