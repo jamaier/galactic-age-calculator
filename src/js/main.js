@@ -1,4 +1,3 @@
-
 export default class GalacticAge {
   constructor(pastAge, currentAge, futureAge) {
     this.pastAge = pastAge;
@@ -7,15 +6,15 @@ export default class GalacticAge {
   }
 
   mercury() {
-    this.pastAge = Math.round(this.pastAge / .24);
-    this.currentAge = Math.round(this.currentAge / .24);
-    this.futureAge = Math.round(this.futureAge / .24);
+    this.pastAge = Math.round(this.pastAge / 0.24);
+    this.currentAge = Math.round(this.currentAge / 0.24);
+    this.futureAge = Math.round(this.futureAge / 0.24);
   }
 
   venus() {
-    this.pastAge = Math.round(this.pastAge / .62);
-    this.currentAge = Math.round(this.currentAge / .62);
-    this.futureAge = Math.round(this.futureAge / .62);
+    this.pastAge = Math.round(this.pastAge / 0.62);
+    this.currentAge = Math.round(this.currentAge / 0.62);
+    this.futureAge = Math.round(this.futureAge / 0.62);
   }
 
   mars() {
@@ -24,5 +23,7 @@ export default class GalacticAge {
     this.futureAge = Math.round(this.futureAge / 1.88);
   }
 
-}
+  jupiter() {
 
+  }
+}
