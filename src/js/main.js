@@ -3,6 +3,10 @@ export default class GalacticAge {
     this.pastAge = pastAge;
     this.currentAge = currentAge;
     this.futureAge = futureAge;
+    this.mercurianAge = 0;
+    this.venusianAge = 0;
+    this.martianAge = 0;
+    this.jupiterianAge = 0;
   }
 
   mercury() {
@@ -19,5 +23,9 @@ export default class GalacticAge {
 
   jupiter() {
     this.currentAge = Math.round(this.currentAge / 11.86);
+  }
+
+  yearsUntil() {
+
   }
 }
