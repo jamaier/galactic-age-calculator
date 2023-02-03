@@ -57,5 +57,4 @@ describe("GalacticAge", () => {
     expect(galacticAge.martianAge).toEqual(11);
     expect(galacticAge.jupiterianAge).toEqual(2);
   });
-
 });
