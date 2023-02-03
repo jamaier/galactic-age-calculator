@@ -24,9 +24,9 @@ describe('GalacticAge', () => {
 
   test('should convert past, current and future age to Venusian age.', () => {
     galacticAge.venus();
-    expect(galacticAge.pastAge).toEqual(6);
-    expect(galacticAge.currentAge).toEqual(19);
-    expect(galacticAge.futureAge).toEqual(37);
+    expect(galacticAge.pastAge).toEqual(16);
+    expect(galacticAge.currentAge).toEqual(50);
+    expect(galacticAge.futureAge).toEqual(95);
   });
 
 });
