@@ -1,15 +1,17 @@
 Galactic age: 
 
+* phase 1
+
 class
 { Test
   
   base Calcs
   1 year earth - 365 days
 
-  Mercury  .24
-  Venus  .68
-  Mars  1.88
-  Jupiter 11.86
+  Mercury  .24:1
+  Venus  .68:1
+  Mars  1.88:1
+  Jupiter 11.86:1
   age
   future birthday - age
   past birthday - age 
@@ -26,10 +28,16 @@ Mercury
 .
 .
 
+* Phase 2 (make this a phase 1 and don't waste time in future projects refactoring.)
 
+get years until and years since
+
+years since = currentage - past age
+years until = future age - current age
+then do arithmetic according to planets.
 
 
 Stretch Goal - 
-Satrun earth / .24
-Uranus earth / .24
-Neptune earth / .24
+Satrun earth / 
+Uranus earth / 
+Neptune earth /
