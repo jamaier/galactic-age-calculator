@@ -18,6 +18,8 @@ describe('GalacticAge', () => {
   test('should convert past, current and future age to murcury age.', () => {
     galacticAge.mercury();
     expect(galacticAge.pastAge).toEqual(42);
+    expect(galacticAge.currentAge).toEqual(129);
+    expect(galacticAge.futureAge).toEqual(246);
   });
 
 });
