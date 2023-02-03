@@ -4,6 +4,11 @@ export default class GalacticAge {
     this.pastAge = pastAge;
     this.currentAge = currentAge;
     this.futureAge = futureAge;
+    this.mercuryAge = 0;
+  }
+
+  mercury() {
+    
   }
 }
 
