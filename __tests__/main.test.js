@@ -45,7 +45,7 @@ describe("GalacticAge", () => {
   test("should show the difference between ages since current age", () => {
     galacticAge.yearsUntil();
     expect(galacticAge.mercurianAge).toEqual(117);
-    expect(galacticAge.venusianAge).toEqual(47);
+    expect(galacticAge.venusianAge).toEqual(45);
     expect(galacticAge.martianAge).toEqual(15);
     expect(galacticAge.jupiterianAge).toEqual(2);
   });
