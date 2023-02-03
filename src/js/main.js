@@ -11,5 +11,9 @@ export default class GalacticAge {
     this.currentAge = Math.round(this.currentAge / .24);
     this.futureAge = Math.round(this.futureAge / .24);
   }
+
+  venus() {
+
+  }
 }
 

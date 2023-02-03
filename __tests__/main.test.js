@@ -15,11 +15,18 @@ describe('GalacticAge', () => {
     expect(galacticAge.futureAge).toEqual(59);
   });
 
-  test('should convert past, current and future age to murcury age.', () => {
+  test('should convert past, current and future age to murcurian age.', () => {
     galacticAge.mercury();
     expect(galacticAge.pastAge).toEqual(42);
     expect(galacticAge.currentAge).toEqual(129);
     expect(galacticAge.futureAge).toEqual(246);
+  });
+
+  test('should convert past, current and future age to Venusian age.', () => {
+    galacticAge.venus();
+    expect(galacticAge.pastAge).toEqual(6);
+    expect(galacticAge.currentAge).toEqual(19);
+    expect(galacticAge.futureAge).toEqual(37);
   });
 
 });
