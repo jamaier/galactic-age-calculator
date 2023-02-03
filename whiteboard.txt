@@ -1,0 +1,35 @@
+Galactic age: 
+
+class
+{ Test
+  
+  base Calcs
+  1 year earth - 365 days
+
+  Mercury  .24
+  Venus  .68
+  Mars  1.88
+  Jupiter 11.86
+  age
+  future birthday - age
+  past birthday - age 
+}
+{ Test
+Mercury
+  age + future = new furute
+  age - past = new past
+  new future / mercury 
+  new past
+}
+
+.
+.
+.
+
+
+
+
+Stretch Goal - 
+Satrun earth / .24
+Uranus earth / .24
+Neptune earth / .24
