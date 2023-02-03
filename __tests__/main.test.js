@@ -5,9 +5,9 @@ import GalacticAge from './../src/js/main';
 describe('GalacticAge', () => {
   
   let galacticAge;
-  beforeEach ( () => 
-    galacticAge = new GalacticAge(10, 31, 59)
-  );
+  beforeEach ( () => {
+    galacticAge = new GalacticAge(10, 31, 59);
+  });
 
   test('display past, current and future birthdays', () => {
     expect(galacticAge.pastAge).toEqual(10);
@@ -16,7 +16,8 @@ describe('GalacticAge', () => {
   });
 
   test('should convert past, current and future age to murcury age.', () => {
-    expect(galacticAge.mercury()).toEqual(42);
+    galacticAge.mercury();
+    expect(galacticAge.pastAge).toEqual(42);
   });
 
 });

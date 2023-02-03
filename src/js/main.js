@@ -8,7 +8,7 @@ export default class GalacticAge {
   }
 
   mercury() {
-    
+
   }
 }
 
