@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Space Age Calculator_
 
 #### By _Jacob Maier_
 
-#### _{Brief description of application}_
+#### _Takes age from user and returns the age you would be relative to that planet._
 
 ## Technologies Used
 
@@ -17,20 +17,17 @@
 
 ## Description
 
-_{}_
+_This web page is supposed to take a current, past and future age from the user to get a return of the current age relative to that planet as well as tell you how much time has passed or will need to pass until the other inputted ages._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
+* _Clone this repo to your local machine_
+* _Run "npm install" to get appropriate packages_
+* _Run "npm start" to open src files into web browser_
 
 ## Known Bugs
 
-* _Any known issues_
+* _No display to user at this time_
 
 ## License
 

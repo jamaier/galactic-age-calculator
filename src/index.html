@@ -1,115 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Planetary Age</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Galactic Age Calculator</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <div class="container text-center">
-        <h1>Planetary Age</h1>
-      </div>
+    <div id="header">
+      <h1>Galactic Age Calculator</h1>
     </div>
-    
-    <div class="row">
-      <div class="col-md-3 mx-auto">
-        <div class="input-form">
-          <form id="start-age">
-            <label for="enter-age">Enter your current age:</label>
-            <input type="text" name="current-age" id="current-age">
-            </label>
-            <label for="enter-age">Enter a past age:</label>
-            <input type="text" name="current-age" id="past-age">
-            </label>
-            <label for="enter-age">Enter a future age:</label>
-            <input type="text" name="current-age" id="future-age">
-            </label>
-            <button id="button" type="submit">See Ages</button>
-          </form>
-        </div>
+    <div id="container">
+      <div id="input-container">
+        <form id="input-form">
+          <label for="current-age">Enter your current age:</label>
+          <input type="text" id="current-age" />
+          <br />
+          <label for="past-age">Enter your past age:</label>
+          <input type="text" id="past-age" />
+          <br />
+          <label for="future-age">Enter your future age:</label>
+          <input type="text" id="future-age" />
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Earth</div>
-            <div class="panel-body">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                class="img-responsive"
-                style="width: 100%"
-                alt="Image"
-              />
-            </div>
-            <div class="panel-footer">Your Eathling age: <span id="earth-age"></span>
-            <p><span id="earth-past"></span></p>
-            <p><span id="earth-future"></span></p>
-            </div>
-          </div>
+      <div id="output-container">
+        <div id="mercury-output">
+          <h2>Mercury</h2>
+          <p>Current Age: <span id="mercury-current-age"></span></p>
+          <p>Past Age: <span id="mercury-past-age"></span></p>
+          <p>Future Age: <span id="mercury-future-age"></span></p>
         </div>
-        <div class="col-sm-4">
-          <div class="panel panel-danger">
-            <div class="panel-heading">Mercury</div>
-            <div class="panel-body">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                class="img-responsive"
-                style="width: 100%"
-                alt="Image"
-              />
-            </div>
-            <div class="panel-footer">Your Mercurian age: <span id="venus-age"></span>
-              <p><span id="mercury-past"></span></p>
-              <p><span id="mercury-future"></span></p>
-            </div>
-          </div>
+        <div id="venus-output">
+          <h2>Venus</h2>
+          <p>Current Age: <span id="venus-current-age"></span></p>
+          <p>Past Age: <span id="venus-past-age"></span></p>
+          <p>Future Age: <span id="venus-future-age"></span></p>
+        </div>
+        <div id="mars-output">
+          <h2>Mars</h2>
+          <p>Current Age: <span id="mars-current-age"></span></p>
+          <p>Past Age: <span id="mars-past-age"></span></p>
+          <p>Future Age: <span id="mars-future-age"></span></p>
+        </div>
+        <div id="jupiter-output">
+          <h2>Jupiter</h2>
+          <p>Current Age: <span id="jupiter-current-age"></span></p>
+          <p>Past Age: <span id="jupiter-past-age"></span></p>
+          <p>Future Age: <span id="jupiter-future-age"></span></p>
         </div>
       </div>
     </div>
-    <br />
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Venus</div>
-            <div class="panel-body">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                class="img-responsive"
-                style="width: 100%"
-                alt="Image"
-              />
-            </div>
-            <div class="panel-footer">Your Venusian age: <span id="mercury-age"></span>
-              <p><span id="venus-past"></span></p>
-              <p><span id="venus-future"></span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Jupiter</div>
-            <div class="panel-body">
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                class="img-responsive"
-                style="width: 100%"
-                alt="Image"
-              />
-            </div>
-            <div class="panel-footer">Your Jupiterian age: <span id="jupiter-age"></span>
-              <p><span id="jupiter-past"></span></p>
-              <p><span id="jupiter-future"></span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <img src="./assets/images/stock-puppy-photo.jpg" alt="such a pup!" />
   </body>
 </html>
